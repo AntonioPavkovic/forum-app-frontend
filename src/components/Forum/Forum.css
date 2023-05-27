@@ -1,41 +1,53 @@
-.forums-container {
+.forum-app {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
+    font-family: Arial, sans-serif;
 }
   
-.forum-form input {
+.forum-app h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+  
+.forum-app form label {
+    display: block;
     margin-bottom: 10px;
-    padding: 5px;
+}
+  
+.forum-app form input {
     width: 100%;
-}
-  
-.forum-list {
-    list-style-type: none;
-    padding: 0;
-}
-  
-.forum-item {
-    margin-bottom: 10px;
     padding: 10px;
     border: 1px solid #ccc;
-    background-color: #f9f9f9;
+    border-radius: 4px;
+    margin-bottom: 10px;
 }
   
-.forum-name {
-    font-size: 18px;
-    margin: 0;
-}
-  
-.forum-description {
-    margin: 5px 0;
-}
-  
-.forum-delete-btn {
-    padding: 5px 10px;
-    background-color: #dc3545;
-    color: #fff;
+.forum-app form button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
+}
+  
+.forum-app form button:hover {
+    background-color: #45a049;
+}
+  
+.forum-app h2 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+  
+.forum-app h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+  
+.forum-app p {
+    margin-bottom: 10px;
 }
   
