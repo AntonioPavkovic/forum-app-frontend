@@ -1,0 +1,41 @@
+.forums-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+.forum-form input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+}
+  
+.forum-list {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.forum-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+  
+.forum-name {
+    font-size: 18px;
+    margin: 0;
+}
+  
+.forum-description {
+    margin: 5px 0;
+}
+  
+.forum-delete-btn {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+  
